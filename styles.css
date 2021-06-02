@@ -172,3 +172,120 @@ font-size: large;
   cursor: pointer;
   margin: 7px;
 }
+
+.main-body {
+  display: flex;
+}
+
+
+/* email main */
+
+.email-main {
+  flex: 1;
+}
+.email-top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(218, 212, 212);
+  padding: 10px;
+}
+
+.email-left {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+
+}
+
+.email-left span {
+  padding-left: 10px;
+    cursor: pointer;
+}
+
+.email-right span {
+  margin: 10px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.email-primary {
+  display: flex;
+
+
+}
+
+.primary {
+  color: gray;
+  display: flex;
+  align-items: center;
+  min-width: 200px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.primary span {
+  margin-right: 10px;
+}
+
+.primary-active , .primary-active{
+  color: #c04b37;
+  border-bottom: 1px solid #c04b37;
+}
+
+.primary-active .material-icons {
+  color: #c04b37;
+}
+
+.primary:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+  border-bottom: 1px solid rgb(168, 164, 164);
+  cursor: pointer;
+}
+.email-option {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.email-option span {
+  margin-left: 10px;
+}
+
+.email-name {
+  flex: 0.3;
+}
+.email-message {
+  flex: 0.7;
+}
+
+.email-time {
+  margin-right: 10px;
+}
+
+
+.sidebar-right .icons {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+
+}
+
+.icons .material-icons {
+  cursor:pointer;
+  padding: 10px;
+}
+
+.next {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 450px;
+}
